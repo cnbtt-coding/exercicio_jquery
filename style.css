@@ -1,0 +1,105 @@
+/* Removing default settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form style */
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 64px auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: sans-serif;
+    font-size: 36px;
+    text-shadow: 5px 5px 10px black;
+    margin-bottom: 24px;
+}
+
+.container form {
+    margin-bottom: 42px;
+}
+
+.container #novo {
+    width: 100px;
+    padding: 3px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.container #novo:hover {
+background-color: rgba(0, 128, 0, 0.777);
+cursor: pointer;
+}
+
+.container input {
+    width: 150px;
+    height: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 2px;
+}
+
+.container #adicionar {
+    height: 26px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all .55s ease;
+    box-shadow: 0px 0px 3px black;
+}
+
+.container #adicionar:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.688);
+    color: #fff;
+}
+
+.container #cancelar {
+    height: 26px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all .55s ease;
+    box-shadow: 0px 0px 3px black;
+}
+
+.container #cancelar:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.688);
+    color: #fff;
+}
+
+.container .nova-tarefa {
+    display: none;
+}
+
+.container ul {
+    max-width: 350px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container li {
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all .30s ease;
+}
+
+.container li:hover {
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.090);
+}
