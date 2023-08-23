@@ -20,4 +20,8 @@ $(document).ready(function() {
         $('#novo').fadeIn();
         $('.nova-tarefa').hide();
     })
+
+    $('ul').on('click', 'li', function() {
+        $('li').toggleClass('remover-tarefa');
+    })
 });
