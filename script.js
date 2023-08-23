@@ -22,6 +22,6 @@ $(document).ready(function() {
     })
 
     $('ul').on('click', 'li', function() {
-        $('li').toggleClass('remover-tarefa');
+        $(this).toggleClass('remover-tarefa');
     })
 });
